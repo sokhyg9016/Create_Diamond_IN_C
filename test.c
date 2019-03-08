@@ -1,4 +1,4 @@
-#pragma warning(disable: 4996)
+я╗┐#pragma warning(disable: 4996)
 #include<stdio.h>
 #include<stdlib.h>
 #define abs(x) ((x > 0)?(x):(-x))
@@ -45,11 +45,11 @@ int main()
 	{
 		for (j = 0; j < abs(i); j++)
 		{
-			printf("бр");
+			printf(" ");
 		}
 		for (j = 0; j < (height - abs(i)) * 2 - 1; j++)
 		{
-			printf("бс");
+			printf("*");
 		}
 		puts("");
 	}
